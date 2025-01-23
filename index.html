@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Marketplace</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="view/Logo.png" alt="logo">
+        </div>
+        <a href="#atasHeader" class="absolute">Ke Atas</a>
+        <div class="header-icons">
+            <!-- <img src="view/Menu.png" alt="menu"></img> -->
+            <div class="cart-icon">
+                <span class="cart-badge" id="cartBadge">0</span>
+                <button popovertarget="cart-belanja"><img src="view/Kranjang.png" alt="cart"></img></button>
+                <div class="cart-display" id="cart-belanja" popover>
+                    <button id="hapusKeranjang">
+                        <svg fill="#000000" width="40px" height="40px" viewBox="0 0 490.646 490.646">
+                            <g>
+                                <g>
+                                    <path d="M399.179,67.285l-74.794,0.033L324.356,0L166.214,0.066l0.029,67.318l-74.802,0.033l0.025,62.914h307.739L399.179,67.285zM198.28,32.11l94.03-0.041l0.017,35.262l-94.03,0.041L198.28,32.11z"/>
+                                    <path d="M91.465,490.646h307.739V146.359H91.465V490.646z M317.461,193.372h16.028v250.259h-16.028V193.372L317.461,193.372zM237.321,193.372h16.028v250.259h-16.028V193.372L237.321,193.372z M157.18,193.372h16.028v250.259H157.18V193.372z"/>
+                                </g>
+                            </g>
+                        </svg>
+                    </button>
+                    <ol>
+                    </ol>
+                    <div class="display-harga bold"><span>TOTAL : Rp </span><span id="totalBayar"> </span></div>
+                    <a target="_blank" id="beliButton"><button>BELI</button></a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h1 id="atasHeader">Promo dan Best Seller</h1>
+        </div>
+
+        <div id="sliderImage" class="slider" reverse="true" style="
+            --width: 30vw;
+            --height: 30vw;
+            --quantity: 2;
+        ">
+        </div>
+        </section>
+
+        <section class="search-section">
+            <div class="search-bar">
+                <svg 
+                width="16.0px"
+                height="16.0px"
+                viewBox="0 0 16.0 16.0">  
+                    <path
+                    style="stroke-width:0.0198416"
+                    d="m 0.87676518,14.722413 c -0.110961,-0.286326 -0.09306,-0.583796 0.05385,-0.894614 l 0.07191,-0.152152 1.881009,-1.830797 c 1.058024,-1.029765 1.922876,-1.8569987 1.976681,-1.8907027 l 0.09567,-0.05991 -0.08175,-0.126153 c -1.0133,-1.563623 -1.233473,-3.370261 -0.618082,-5.0716766 0.8007,-2.2137498 2.875811,-3.6803004 5.232787,-3.69817133 2.0634858,-0.015654 3.9461698,1.07266173 4.9543888,2.86394313 0.503632,0.894799 0.753272,1.9422548 0.711371,2.9848227 -0.09656,2.4028291 -1.723337,4.4940898 -4.014302,5.1604958 -1.1670768,0.339484 -2.3379548,0.308912 -3.4783018,-0.09082 -0.360364,-0.12632 -0.968912,-0.424737 -1.209997,-0.593353 l -0.131457,-0.09194 -1.940469,1.888575 c -1.288173,1.253716 -1.977514,1.911619 -2.05055,1.957254 -0.277035,0.172861 -0.68913,0.22221 -0.970203,0.116185 C 1.1545422,15.116149 0.95319818,14.91964 0.87677518,14.722414 Z M 7.4192562,9.8756313 c 1.446622,0.9506087 3.1568458,0.9778827 4.4951398,0.07169 0.254867,-0.172577 0.684552,-0.590663 0.879206,-0.855477 C 14.223254,7.1469253 13.468465,4.2808003 11.214766,3.096597 10.049813,2.4844776 8.6382082,2.4736222 7.5211662,3.068196 c -0.442327,0.2354401 -0.937263,0.6652146 -1.240528,1.0772013 -0.939851,1.2767845 -0.963986,3.084311 -0.05989,4.484793 0.21219,0.328689 0.205807,0.321108 0.615889,0.731711 0.29704,0.29742 0.42459,0.409887 0.582617,0.51373 z"
+                    id="path1161" />
+                </svg>
+
+                <input id="searchProduct" type="text" placeholder="Search products...">
+            </div>
+            <div class="categories">
+                <button class="category-btn active type">All</button>
+                <button class="category-btn type">Sayur</button>
+                <button class="category-btn">|</button>
+                <button class="category-btn ascdesc">Termurah</button>
+                <button class="category-btn ascdesc">Termahal</button>
+            </div>
+        </section>
+        
+        <!-- <section class="redeem-code">
+            <h2>Redeem Code</h2>
+            <div class="redeem-form">
+                <input type="text" placeholder="Enter your code" id="redeemCodeInput">
+                <button id="redeemButton">Redeem</button>
+            </div>
+        </section> -->
+
+        <section class="midnight-sale">
+            <!-- <div class="section-header">
+                <h2>Midnight Sale</h2>
+                <div class="countdown-container">
+                    <span class="countdown" id="countdown">02:52:17</span>
+                    <a href="#" class="see-all">See all</a>
+                </div>
+            </div> -->
+            <div class="products-grid" id="productsGrid">
+
+                <!-- Products will be dynamically added here -->
+            </div>
+        </section>
+    </main>
+
+    <nav class="bottom-nav">
+        <button class="nav-item">
+            <img src="home.jpg" alt="home"></img>
+            <span>Home</span>
+        </button>
+        <button class="nav-item">
+            <img src="search.jpg" alt="search"></img>
+            <span>Search</span>
+        </button>
+        <button class="nav-item">
+            <img src="heart.jpg" alt="heart"></img>
+            <span>Wishlist</span>
+        </button>
+        <button class="nav-item">
+            <img src="user.jpg" alt="user"></img>
+            <span>Profile</span>
+        </button>
+    </nav>
+
+    <script src="view.js" type="module"></script>
+    <script src="control.js" type="module"></script>
+</body>
+</html>
+

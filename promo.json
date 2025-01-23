@@ -1,0 +1,14 @@
+[   
+    { "id": 5, "src": "view/sayur/Herba (5).jpg", "badge": "-20%" },
+    { "id": 7, "src": "view/sayur/Herba (7).jpg", "badge": "-40%" },
+    { "id": 1, "src": "view/sayur/Herba (1).jpg", "badge": "-30%" },
+    { "id": 3, "src": "view/sayur/Herba (3).jpg", "badge": "-50%" },
+    { "id": 10, "src": "view/sayur/Herba (10).jpg", "badge": "-40%" },
+    { "id": 11, "src": "view/sayur/Herba (11).jpg", "badge": "-20%" },
+    { "id": 12, "src": "view/sayur/Herba (12).jpg", "badge": "-50%" },
+    { "id": 22, "src": "view/sayur/Herba (22).jpg", "badge": "-40%" },
+    { "id": 4, "src": "view/sayur/Herba (4).jpg", "badge": "-40%" },
+    { "id": 6, "src": "view/sayur/Herba (6).jpg", "badge": "-40%" },
+    { "id": 15, "src": "view/sayur/Herba (15).jpg", "badge": "-40%" },
+    { "id": 19, "src": "view/sayur/Herba (19).jpg", "badge": "-40%" }
+]
